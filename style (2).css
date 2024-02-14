@@ -1,0 +1,49 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+.menu-button {
+    display: inline-block; /* Устанавливаем кнопки как inline-block */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #666;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-button:hover {
+    background-color: #999;
+    color: #fff;
+}
+
+.image-container {
+    display: flex; /* Используем flexbox для расположения в ряд */
+}
+
+.image-container img {
+    width: 50%; /* Устанавливаем ширину картинок на 50%, чтобы они занимали равное пространство */
+    height: auto; /* Поддерживаем пропорциональное изменение высоты */
+    margin: 2px
+}
